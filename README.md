@@ -115,3 +115,68 @@ Y esto son mods que también imprimí, son opcionales, excepto el Kirigami Bed V
 | Long Thumb Nut V0 | [V0 Long Thumb Nut by ardichoke](https://mods.vorondesign.com/details/JUp9cjJO3rcJWWEyhS3ag) | Si no, los normales son los [a]_Thumb_Nut_x3 en la Raiz |
 | Voron V0 (V0.1) Kirigami Bed V3 Offset Nut | [Voron V0 (V0.1) Kirigami Bed V3 Offset Nut por DG \| Descargar modelo STL gratuito \| Printables.com](https://www.printables.com/model/151079-voron-v0-v01-kirigami-bed-v3-offset-nut) | Si no lo tienes, puede ser que la cama se te desplace en el eje Y y que los muelles no hagan fuerza y no puedas nivelarla correctamente. |
 
+# Capítulo 1 – Frame
+
+Antes de empezar, quería dar un apunte sobre los perfiles de aluminio: para el kit de Formbot los perfiles A y B son intercambiables (en el kit, todos vienen roscados), y lo mismo para C y H.
+
+## 1.1. Limpieza de las guías lineales
+
+Para saber cómo hacer este proceso, seguí los consejos tanto de Canuck creator (https://www.youtube.com/watch?v=UYvhYjkBFTY)  como de Mapple Leaf Makers (How to clean and lube your rails).
+Lo primero es quitar el aceite con el que vienen las guías. Para ello, puse todas las guías en una bolsa zip y lo sumergí en alcohol isopropílico. Aunque luego me di cuenta de que la bolsa empezó a desteñir, así que las deje en un recipiente sumergidas en alcohol. Moví de vez en cuando las guías arriba y abajo para que penetrase bien el alcohol.
+
+<img src="./imagenes/C1/imagen 1_1.jpg" width="50%"><img src="./imagenes/C1/imagen 1_2.jpg" width="50%">
+
+Luego las sequé una a una con papel absorbente. Y para acabar de asegurarme que se evaporaba todo el líquido, lo puse en un secador de filamentos que tengo, una hora a 40ºC, aunque dejarlo a la intemperie un rato, también hubiese funcionado.
+
+<img src="./imagenes/C1/imagen 1_3.jpg" width="50%"><img src="./imagenes/C1/imagen 1_4.jpg" width="50%">
+
+Una vez bien secos, toca lubricar. Yo usé uno de los lubricantes recomendados por la guía de Voron, el Mobil EP 2. Intenté buscar alternativas, pero no había mucha diferencia de precio, así que preferí invertir en un buen lubricante. Para introducirlo, usé una jeringuilla de las típicas que puedes comprar en una farmacia. Si lo volviese hacer, usaría aguja fina para poder introducir directamente en los rodamientos, ya que lo que hice fue meter el lubricante a presión tal y como se ve en las imágenes, y al comprobar que salían por los rodamientos, entendí que estaban correctamente lubricados. Luego se mueve un poco a lo largo del carril para que se reparta bien el lubricante, y con papel absorbente limpiamos el excedente.
+
+<img src="./imagenes/C1/imagen 1_5.jpg" width="50%"><img src="./imagenes/C1/imagen 1_6.jpg" width="50%">
+
+Lo que me sorprendió es que después de lubricarlos, se movían más lentamente que cuando solo tenían el aceite, pero con los días, han ido yendo más finos.
+
+## 1.2. Montaje del frame
+
+Ahora aquí, ya sí que seguimos las instrucciones de la guía Voron. Solo iré comentando las partes con las que tuve dudas o problemas.
+En el caso de poner las guías en los carriles, dentro de la carpeta tools de los stls, hay unas piezas para centrar las guías, la cual ayudan mucho para esa operación. En la guía especifican que no hace falta añadir tornillos y tuercas en todos los agujeros de la guía lineal, pero con la cantidad que vienen el kit, se podría hacer (yo no lo hice).
+
+<img src="./imagenes/C1/imagen 1_7.jpg" width="80%">
+
+En todo el montaje, solo partí un tornillo, que fue justamente en estos primeros pasos. Por suerte fue fácil de remplazar y no perdí ninguna pieza. En este caso diría que fue un tornillo defectuoso, ya que no apliqué fuerza excesiva y aún quedaba tramo para roscar. Pero nada, una anécdota.
+
+<img src="./imagenes/C1/imagen 1_8.jpg" width="80%">
+
+Luego seguí las instrucciones para el montaje del frame. Aunque en las fotos lo veáis encima de una plancha de goma, a la hora de montarlo y cuadrarlo todo lo hice en la encimera de la cocina para garantizar una superficie plana (podéis ver esta recomendación en el siguiente video: https://www.youtube.com/watch?v=GSg7RDLgYV0). Me compré unas llaves hexagonales Wera, para evitar gastar las cabezas de los tornillos, y la verdad es que han ido muy bien, pero la parte más larga no pasaban por los agujeros que atraviesan las extrusiones de aluminio, ya que tienen un recubrimiento de goma, así que tuve que usar la parte corta, siendo difícil para cuadrar el frame, teniéndolo apoyado en la encimera.
+Aquí ya está parte del frame montado con los raíles a 58 mm del borde.
+
+<img src="./imagenes/C1/imagen 1_9.jpg" width="80%">
+
+Luego viene la parte de poner los insertos metálicos en las piezas impresas. Yo utilicé el soldador que tengo en casa y le puse una temperatura de 255ºC. La verdad es que encajaban perfectamente en las piezas impresas, no tuve que retocar nada.
+
+<img src="./imagenes/C1/imagen 1_10.jpg" width="80%">
+
+Ahora toca montar la parte de la cama kirigami. En esta parte me detendré un poco más, porque para mí, la documentación es algo escasa o fragmentada, aunque la verdad es que es bastante más simple que la que aparece en el manual oficial.
+
+## 1.3. Kirigami bed
+
+En el manual de Voron, no hay una explicación detallada de cómo se monta la cama Kirigami, pero sí que recomienda ir a ver el github de
+christophmuellerorg (GitHub - christophmuellerorg/voron_0_kirigami_bed · GitHub). Personalmente también creo que el video de Tommy Houghton ([I Wish I Built a Voron Sooner](https://www.youtube.com/watch?v=V_P36ezmop4)) puede resolver muchas dudas, ya que monta el mismo kit de Formbot.
+Como ya he dicho, es bastante simple. Se pone los insertos en las piezas que muestro abajo.
+
+<img src="./imagenes/C1/imagen 1_11.jpg" width="80%">
+
+Y luego se colocan en lo que es la cama Kirigami:
+
+<img src="./imagenes/C1/imagen 1_12.jpg" width="80%">
+
+Junto con el “cable chain” para los cables.
+
+<img src="./imagenes/C1/imagen 1_13.jpg" width="80%">
+
+A la hora de juntar la cama con las guías lineales (pg. 44 de la guía) acordaros de usar el nutlocker para que no se aflojen los tornillos.
+Y acabando este capítulo, la impresora nos queda como la imagen de abajo:
+
+<img src="./imagenes/C1/imagen 1_14.jpg" width="80%">
+
+Para mi gusto, la cama ha quedado muy dura, ya que para que baje, tengo que hacer cierta fuerza, cuando esperaría que casi cayera por su propio peso. [SrgntBallistic](https://github.com/SrgntBallistic) ya puso en su github este problema, pero en el momento de montarlo, me pareció que no era muy importante. Por el momento, no he notado defectos en las impresiones.
