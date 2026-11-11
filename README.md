@@ -180,3 +180,52 @@ Y acabando este capítulo, la impresora nos queda como la imagen de abajo:
 <img src="./imagenes/C1/imagen 1_14.jpg" width="80%">
 
 Para mi gusto, la cama ha quedado muy dura, ya que para que baje, tengo que hacer cierta fuerza, cuando esperaría que casi cayera por su propio peso. [SrgntBallistic](https://github.com/SrgntBallistic) ya puso en su github este problema, pero en el momento de montarlo, me pareció que no era muy importante. Por el momento, no he notado defectos en las impresiones.
+
+# Capítulo 2 – A/B drives
+
+Tampoco tiene mucha complicación esta parte si estas concentrado, aunque yo tuve que desmontar varias veces la “torre” de rodamientos porque los coloqué del revés sin darme cuenta.
+
+<img src="./imagenes/C2/imagen 2_1.jpg" width="80%">
+
+Lo que sí que vi es que no llegué a tener una torre de 18mm como se ve en la imagen de abajo. Intenté poner más arandelas llegando a hacer los 18 mm, pero luego no encajaban bien las piezas impresas, así que preferí dejarlo como al principio, aunque fuese menor a 18mm. No he observado ningún problema durante el funcionamiento.
+
+<img src="./imagenes/C2/imagen 2_2.jpg" width="80%">
+
+Y luego añadir el motor y un poco de nutlocker para que no se aflojen los tornillos de la cabeza del stepper:
+
+<img src="./imagenes/C2/imagen 2_3.jpg" width="80%">
+
+Al final la cosa queda así:
+
+<img src="./imagenes/C2/imagen 2_4.jpg" width="80%">
+
+# Capítulo 3 – A/B idlers
+
+Aquí, nada que comentar:
+
+<img src="./imagenes/C3/imagen 3_1.jpg" width="80%">
+
+# Capítulo 4 – Z axis
+
+Aquí me equivoqué y en vez de imprimir la pata por donde tiene que entrar el filamento con el teflón, imprimí la que no tiene agujero (plain), como se ve en la imagen de abajo.
+
+<img src="./imagenes/C4/imagen 4_1.jpg" width="80%">
+
+Por suerte Andrea me hizo el favor de imprimirme la pata buena (gracias!!) y es seguir el proceso que describe la guía para conectar la pieza que coge el teflón:
+
+<img src="./imagenes/C4/imagen 4_2.jpg" width="80%">
+<img src="./imagenes/C4/imagen 4_3.jpg" width="80%">
+
+Y luego va el interruptor para la detección de filamento. En la guía comenta que este interruptor tiene que estar como Normalmente abierto, pero como podéis ver en la imagen, el interruptor viene soldado como Normalmente cerrado:
+
+<img src="./imagenes/C4/imagen 4_4.jpg" width="80%">
+<img src="./imagenes/C4/imagen 4_5.jpg" width="80%">
+
+Lo comenté con la gente de Formbot, y me dijo que no habría problema, ya que se puede configurar en el firmware de la impresora, así que lo dejo así y ya lo configuraré.
+
+<img src="./imagenes/C4/imagen 4_6.jpg" width="80%">
+
+La vara roscada de z la lubriqué ligeramente, aunque creo que por el “anti back-lash” que lleva, no haría falta, pero bueno, no esta mal proteger de corrosión. Para montar el motor de Z, me pareció más fácil hacerlo primero fuera de la impresora y luego meter todo junto dentro.
+
+<img src="./imagenes/C4/imagen 4_7.jpg" width="80%">
+<img src="./imagenes/C4/imagen 4_8.jpg" width="80%">
